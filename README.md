@@ -17,12 +17,11 @@ Se seleccionó la pagina “us.shein.com” para extraer mediante la API de Sele
 Para la realización de este script se desglosó cada una de las acciones necesarias para obtener la información de cada producto. En este sentido se establecieron las funciones del script de la siguiente manera:
 *Inicializador de la API Selenium WebDriver
 *Extracción de los links de cada unos de los productos en la pagina “Más Populares”
-*Extracción y guardado en un archivo “ropa_data.csv” de la información de cada producto 
+*Extracción y guardado en un archivo “ropa_data.csv” alojado en una carpeta llamada "/extrated_data", donde está contenido la información de cada producto 
 *Limpiar los datos guardados en el archivo “ropa_data.csv” 
 
 Se utilizaron modulos como:
 * Time
-
 * Pandas
 * Numpy
 * bs4
